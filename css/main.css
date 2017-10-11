@@ -33,3 +33,11 @@ p + strong {
 a:not(.no-highlight) {
   background-color: #719e07;
 }
+
+li:nth-last-child(3) .no-highlight {
+  background-color: #2694d8;
+}
+
+ol li: first-child {
+  color: #719e47;
+}
